@@ -1,0 +1,10 @@
+template: Quote  is  %s
+# use the simple server factory if you only want to run on a single port
+server:
+  # type: simple
+  applicationConnectors:
+    - type: http
+      port: 6080
+  adminConnectors:
+    - type: http
+      port: 6081
